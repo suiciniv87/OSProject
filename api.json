@@ -1,0 +1,35 @@
+{
+  "usuarios": [
+    {
+      "id": "user@email.com",
+      "email": "user@email.com",
+      "senha": "123"
+    }
+  ],
+  "informacoes": [
+    {
+      "os": 1,
+      "titulo": "Switch",
+      "descricao": "Necessário adicionar novo switch devido falha.",
+      "dataSolicitacao": "2019-05-12",
+      "dataVisita": "2019-05-12",
+      "id": 1
+    },
+    {
+      "os": 2,
+      "titulo": "Hub",
+      "descricao": "Problema possivelmente encontrado no Hub...",
+      "dataSolicitacao": "2019-10-08",
+      "dataVisita": "2019-10-08",
+      "id": 2
+    },
+    {
+      "os": 3,
+      "titulo": "Antena",
+      "descricao": "Antena virou com o vento",
+      "dataSolicitacao": "2018-08-10",
+      "dataVisita": "2018-08-11",
+      "id": 3
+    }
+  ]
+}
