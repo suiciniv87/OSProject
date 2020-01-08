@@ -21,7 +21,7 @@
             <label class="labelOs">Data Visita: </label>
             <span>{{editar.dataVisita}}</span><br>
             <div id="botoes" class="btnModal">
-              <button class="btn btnAtualizar" @click.prevent="atualizarDados(editar)">Atualizar</button>
+              <button class="btn btnAtualizar" @click.prevent="atualizarDados(editar); editar = '';">Atualizar</button>
               <button class="btn btnEditar" @click.prevent='editar = ""'>Fechar</button>
             </div>
           </form>
@@ -86,7 +86,7 @@ export default {
         headers: {
         'content-type': 'application/json'
         }
-      }), editar == "", console.log(editar)
+      })
     },
     abrirModal(servico) {
       this.editarServico(servico);
