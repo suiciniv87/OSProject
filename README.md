@@ -1,4 +1,4 @@
-# projetoos
+# projectos
 
 ## Project setup
 ```
@@ -22,10 +22,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-		    NOTES
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
-THIS SYSTEM USES JSON-SERVER, AN API SIMULATOR.
-https://github.com/typicode/json-server
